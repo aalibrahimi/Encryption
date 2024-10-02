@@ -1,0 +1,19 @@
+# Ignore the virtual environment folder
+venv/
+env/
+
+# Ignore PyInstaller build files
+build/
+dist/
+*.spec
+
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+
+# Ignore any logs or other generated files
+*.log
+
+# Ignore system-specific files (for example, macOS or Windows)
+.DS_Store
+Thumbs.db
