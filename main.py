@@ -7,7 +7,7 @@ with open("public_key.pem", "rb") as f:
     public_key = load_pem_public_key(f.read())
 
 # The message you want to send
-message = b"Hey buddy, how are you, you freaak of nature? I needd you to calm down and stop being so crazy. LOL :D"
+message = b"Papi chulo <3"
 
 # Encrypt the message
 encrypted_message = public_key.encrypt(
