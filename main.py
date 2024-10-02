@@ -7,7 +7,7 @@ with open("public_key.pem", "rb") as f:
     public_key = load_pem_public_key(f.read())
 
 # The message you want to send
-message = b"Papi chulo <3"
+message = b"https://www.youtube.com/watch?v=67q2MR3C8Xg"
 
 # Encrypt the message
 encrypted_message = public_key.encrypt(
